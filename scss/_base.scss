@@ -19,13 +19,11 @@ body{
 }
 
 .container{
-    width: 114rem;
+    max-width: 114rem;
     margin-left: auto;
     margin-right: auto;
 
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+   
 }
 
 a:link,
@@ -33,4 +31,32 @@ a:visited{
     color: $color-text;
     text-decoration: none;
     font-weight: 400;
+}
+
+.main-btn{
+   width: 25rem;
+   height: 7.7rem;
+   text-align: center;
+   color: #fff;
+   background-color: $color-primary;
+   border: none;
+   outline: 0;
+   border-radius:3rem;
+   font-weight: bold;
+   font-size: 2rem;
+   cursor: pointer;
+   box-shadow: 0 10px 10px rgba($color-primary,.35);
+}
+
+.heading-3{
+    text-align: center;
+    color: #0B132A;
+    font-size: 3.5rem;
+    padding-top: 3rem;
+}
+.main-parag{
+    text-align: center;
+    color: #4F5665;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
 }

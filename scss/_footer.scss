@@ -1,0 +1,26 @@
+.footer{
+    background-color: #f8f8f8;
+    margin: 7rem 0;
+
+    &__left{
+        width: 340px;
+        padding: 5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-right: auto;
+
+        &--logo{
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            margin-bottom: 2rem;
+        }
+    }
+}
+
+.nav__scoial{
+    margin-top: 2rem;
+    cursor: pointer;
+}

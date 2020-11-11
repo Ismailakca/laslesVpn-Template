@@ -1,0 +1,36 @@
+.company{
+    padding: 5rem 5rem;
+    .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__right{
+        &-nav{
+           margin-top: -3rem;
+        }
+        &-nav_item{
+            list-style-type: none;
+            display: flex;
+            align-items: center;
+            font-size: 1.8rem;
+            &:not(:last-child){
+                margin-bottom: 1rem;
+            }
+
+        }
+    }
+    &__right--padding{
+        padding: 2rem 4rem;
+    }
+}
+
+.check{
+    width: 2rem;
+    height: 2rem;
+    background-color: green;
+    border-radius: 10rem;
+    display: block;
+    margin-right: 1rem;
+}

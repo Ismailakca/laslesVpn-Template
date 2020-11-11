@@ -2,9 +2,16 @@
     padding-top: 2rem;
     padding-bottom: 2rem;
 
+  .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
     &__logo{
         display: flex;
         align-items: center;
+        cursor: pointer;
 
         &--text{
             font-weight: 400;

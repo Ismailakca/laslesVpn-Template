@@ -1,0 +1,27 @@
+.customer{
+    margin: 5rem 0;
+    &__kapsa{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__content{
+        width: 40rem;
+        border: 1px solid $color-primary;
+        border-radius: 1rem;
+        padding: 1.5rem;
+        margin-left: 1rem;
+        box-shadow: 0 10px 10px rgba(0,0,0,.5);
+
+        &--top{
+            display: flex;
+            align-items: center;
+        }
+    }
+}
+
+.name{
+    margin-right: auto;
+    margin-left: 1.5rem;
+}

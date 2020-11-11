@@ -1,0 +1,11 @@
+.mark{
+    margin: 5rem 0;
+
+    &__list{
+        list-style-type: none;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+}

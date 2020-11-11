@@ -1,0 +1,37 @@
+.main{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5rem;
+
+    .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__left{
+     
+        &--heading{
+            font-size: 5rem;
+            font-weight: 500;
+            margin-bottom: 2rem;
+
+            span{
+                font-weight: bold;
+            }
+        }
+
+        &--parag{
+            margin-bottom: 8rem;
+        }
+       
+    }
+
+
+    &__right{
+       padding: 2rem 0 0 2rem;
+
+    }
+}
